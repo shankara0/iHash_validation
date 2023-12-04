@@ -1,11 +1,20 @@
-👋 Hi, I’m @shankara0
+-------Shankara0-------
 
-👀 I’m passionate about ethical hacking, cybersecurity, and CTF challenges on platforms like HackTheBox, TryHackMe, and various other cybersecurity platforms.
+Token Validation & Brute Force Script
+This Python script performs token validation against a web service endpoint. It utilizes the requests, hlextend, and base64 libraries to construct and send HTTP requests, aiming to identify valid tokens.
 
-🌱 I’m currently honing my skills in penetration testing methodologies, network security, cryptography, and exploit development to continuously improve my knowledge and proficiency in the field of cybersecurity.
+Functionality:
+Token Validation: Validates tokens against a specific web service URL.
+Brute Force Approach: Iterates through a range of tokens to identify valid ones.
+Response Analysis: Checks HTTP responses for the presence of specific keywords to determine token validity.
 
-💡 I love writing scripts in Python, PHP, and several other languages to automate tasks, develop security tools, and explore various cybersecurity concepts.
+Key Components:
+Web Request Function: check_for_fail function makes HTTP requests and analyzes responses for token validation.
+Token Generation: Generates tokens using cryptographic operations provided by the hlextend library.
+Custom Headers: Utilizes custom headers for the HTTP requests to the target URL.
 
-💞️ I’m keen to collaborate on cybersecurity projects, open-source tools, and challenges that enhance practical knowledge in offensive security and cybersecurity as a whole.
+Usage:
+Configure the url variable with the target web service URL.
+Run the script, which iterates through a range of tokens to identify valid ones.
 
-📫 You can reach me at sahilshimla06@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/sahil-gupta-9959821ab/) for discussions, collaborations, or sharing insights in the cybersecurity domain. Also, you can find me on Instagram at [_.sahiil_](https://www.instagram.com/_.sahiil_/) for some cybersecurity and tech-related posts!
+-------Shankara0-------
