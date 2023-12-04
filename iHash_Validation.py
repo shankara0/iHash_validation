@@ -7,7 +7,7 @@ import hlextend
 sys.path.append('~/Desktop/HTB/Machines/Ouija/hlextend')
 
 # Define the URL for the web request
-url = "<Target_Url>"     //Change URL with Endpoint
+url = "<Target_Url>"     //Change URL including Endpoint
 
 # Function to make a web request and check for the word "fail"
 def check_for_fail(number, id, ihash):
